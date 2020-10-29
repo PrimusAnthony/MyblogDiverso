@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang=´es´>
+    <head>
+        <meta name=´description´ content="Practicando para mi primera pagagina WEB"/>
+        <title>Aprendiendo HTML</title>
+        <meta name="autor" content="Anthony"/>
+        <meta name="keywords" content="Mi primer sitio, practicando para mi primera pagina, principiante en html">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/CSS.css">
+
+        <!--PAGINA HECHA POR ANTHONY ARTAVIA LEITÓN
+        REALIZADA EN MUCHOS DÍAS DURANTE VARIOS MESES.-->
+
+    </head>
+    <body>
+
+        <div class="agrupar">
+        <header class="cabecera">
+             <H1> | Mi blog | Página principal |</H1>
+        </header>
+
+        <style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:left;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+        </style>
+        
+        <div id="header">
+			<ul class="nav">
+                <h1><u>    </u></h1>
+                <br>
+                <li><a href="">|¿Cual es el proposito de este proyecto? |</a>
+                    <ul>
+						<li><a href="Cual es el proposito/Proposito.html">proposito</a></li>
+					</ul>
+                </li>
+
+				<li><a href="">Ayuda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+					<ul>
+						<li><a href="">Herramientas</a>
+							<ul>
+								<li><a href="">Explicación</a></li>
+							</ul>
+						</li>
+					</ul>
+                </li>
+
+				<li><a href="">Contacto&nbsp;|</a>
+					<ul>
+						<li><a href="">Creador</a></li>
+					</ul>
+				</li>
+			</ul>
+        </div>
+        
+    
+            <section class="seccion">
+                <article>
+                    <hgroup>
+                        <h1>Introducción a las Galaxias</h1>
+                        <h2>¿Que es Galaxia?</h2>
+                    </hgroup>
+                    <time datetime="01-09-2020">Articulo publicado el 01-09-2020</time>
+                    <img src="Img/Articulo Glaxias/Galaxia.jfif"/>
+                    <p>Una galaxia es un conjunto de estrellas, nubes de gas, planetas, polvo cósmico, materia oscura y energía unidas gravitatoriamente en una estructura más o menos definida.</span></p>
+
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                    <address>
+                        |&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="Pagina principal de paginas categorias/Pagina index de paginas.html">Conceptos e información</a>
+                        &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+                        <a href="Pagina principal de paginas categorias/Paginas hipervinculadas/Investigación/Investigación pag.html">Investigaciones&nbsp;&nbsp;Espaciales</a>&nbsp;&nbsp;|
+                    </address>
+                </article>
+
+
+                <article>
+                    <hgroup>
+                        <h1>Automoviles superdeportivos y deportivos</h1>
+                        <h2>¡Te interesará!</h2>
+                    </hgroup>
+                    <time datetime="13-10-2020">Se mencionan solo algunos superdeportivos y deportivos </time>
+                    <img src="Img/Articulo Autos/Imagen de icono.jfif">
+                    <p>En este articulo se explorará el tema de los autos, y en este caso los superdeportivos y deportivos comunes.
+                        <br>¡Se habla sobre el nombre características de cada uno y su fundador!  Entre otras...</p>
+                    <footer>
+                        <p>Fecha de creación::  13/10/20
+                            <br><u>Página en Mantenimiento</u></p>
+                    </footer>
+                    <address>
+                        <a href="Pagina principal de paginas categorias/1Vehiculos superdeportivos/index.html">Lee este articulo aquí</a>
+                        <a><h3>¡Disfruta de este articulo!</h3></a>
+                    </address>
+                </article>
+
+
+                <article>
+                    <hgroup>
+                        <h1>¿Te gustaría ver mi canal de YouTube?</h1>
+                        <h2>¡Te interesará!</h2>
+                    </hgroup>
+                    <time datetime="01-09-2020">Prueba realizada el 01-09-2020</time>
+                    <p>Subo contenido de lo que sea, canal de variedad dispuesto a divertir a las personas y entretener.
+                    <br>
+                    👍🏻,ESPERO QUE LES GUSTE LOS VIDEOS,Suscribanse a mi canal para no perderse ningun video. 👍🏻</p>
+                    <footer>
+                        <p>Comentarios (10)</p>
+                    </footer>
+                    <address>
+                        <a href="https://www.youtube.com/channel/UCIGcpV_zqahoiYXCuqi7R0A">Vista mi canal de YouTube</a>
+                    </address>
+                </article>
+            </section>
+    
+            <aside class="columnaderecha">
+                <blockquote cite="http://google.com">
+                    <!Mensaje 1><u><h2>¡Pagina en Mantenimiento!</u></h2>
+                    <br>
+                    <img src="Img/mantenimiento de la pagina}.jfif" height="80" width="1200">
+                </blockquote>
+    
+                <blockquote cite="http://google.com">
+                    <!Mensaje 2> <h2><u>¡Pagina hecha en HTML 5!</u></h2>
+                    <br>
+                    <img src="Img/Html.png">
+                </blockquote>
+            </aside>
+    
+            <footer class="piedepagina">
+                Derechos Reservados 2010-2030
+            </footer>
+        </div>
+
+    </body>
+</html>
+
+<!--PAGINA HECHA POR ANTHONY-->

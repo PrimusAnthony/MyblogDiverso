@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bordedetodo {
+    width: 980px;
+    height: 600px;
+    padding: 30px;
+    margin: auto;
+}
+
+.bordedeimagen{
+    border: 2px solid rgb(231, 212, 39);
+}
+
+.colordelaletra {
+    color: blue;
+}
+
+.fondodelaletra {
+    background: gray;
+    border: 2px solid rgba(230, 159, 6, 0.924);
+    font-size: 120%;
+}
+
+.cambiocolorletra {
+    color: gold;
+}
+
+.algunosdescubrimientos {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: gray; 
+    text-align: center;
+    
+}
+
+.marcoalgunosdescubrimeintos {
+    border: 4px solid black;
+    background-color: darkgrey;
+    padding: 1%;
+}
+
+.algunosdescubrimientostexto {
+    font-size: 112%;
+}
+
+.agujeronegroajustarderecha {
+    float: right;
+}
+
+.acomodarIMGcentro {
+    padding-left: 35%;
+    padding-right: 25%;
+}
